@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D2669590-CD35-4253-888E-DE7862752AA4}</ProjectGuid>
+    <ProjectGuid>{A2F32934-BD70-4D8A-B57D-778338D1F639}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>sun_position_gha</RootNamespace>
-    <AssemblyName>sun_position_gha</AssemblyName>
+    <RootNamespace>annual_date_time_gha</RootNamespace>
+    <AssemblyName>annual_date_time_gha</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -62,30 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NumericExtensions.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="SunPositionComp.cs" />
-    <Compile Include="sun_position_ghaInfo.cs" />
+    <Compile Include="AnnualDateTime.cs" />
+    <Compile Include="annual_date_time_ghaInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\sun.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\sun2.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -97,6 +76,7 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).gha"
+
 
 Copy "$(TargetPath)" "D:\GrasshopperVersions\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.64.0\Components\$(ProjectName).gha"
 

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sun_position_gha", "sun_position_gha.csproj", "{D2669590-CD35-4253-888E-DE7862752AA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "annual_date_time_gha", "..\annual_date_time_gha\annual_date_time_gha.csproj", "{A2F32934-BD70-4D8A-B57D-778338D1F639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug32|Any CPU = Debug32|Any CPU
@@ -16,6 +18,12 @@ Global
 		{D2669590-CD35-4253-888E-DE7862752AA4}.Debug64|Any CPU.Build.0 = Debug64|Any CPU
 		{D2669590-CD35-4253-888E-DE7862752AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2669590-CD35-4253-888E-DE7862752AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F32934-BD70-4D8A-B57D-778338D1F639}.Debug32|Any CPU.ActiveCfg = Debug32|Any CPU
+		{A2F32934-BD70-4D8A-B57D-778338D1F639}.Debug32|Any CPU.Build.0 = Debug32|Any CPU
+		{A2F32934-BD70-4D8A-B57D-778338D1F639}.Debug64|Any CPU.ActiveCfg = Debug64|Any CPU
+		{A2F32934-BD70-4D8A-B57D-778338D1F639}.Debug64|Any CPU.Build.0 = Debug64|Any CPU
+		{A2F32934-BD70-4D8A-B57D-778338D1F639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F32934-BD70-4D8A-B57D-778338D1F639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

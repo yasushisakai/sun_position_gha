@@ -2,22 +2,23 @@
 using System.Drawing;
 using Grasshopper.Kernel;
 
-namespace sun_position_gha
+namespace annual_date_time_gha
 {
-    public class sun_position_ghaInfo : GH_AssemblyInfo
+    public class annual_date_time_ghaInfo : GH_AssemblyInfo
     {
         public override string Name
         {
             get
             {
-                return "sunpositiongha";
+                return "annualdatetimegha";
             }
         }
         public override Bitmap Icon
         {
             get
             {
-                return Properties.Resources.sun2;
+                //Return a 24x24 pixel bitmap to represent this GHA library.
+                return null;
             }
         }
         public override string Description
@@ -32,7 +33,7 @@ namespace sun_position_gha
         {
             get
             {
-                return new Guid("72514e2d-24ef-4033-b653-00dfd4473170");
+                return new Guid("0fc8ca6d-0781-4b9c-ba3a-9a6df4b0d9d4");
             }
         }
 
